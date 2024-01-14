@@ -296,6 +296,7 @@ nav a {
     justify-content: space-between;
     gap: 80px;
 }
+
 .featured-image img {
     border-radius: 7px;
 
@@ -305,9 +306,40 @@ nav a {
     text-align: left;
 }
 
- .featured-content .featured-description {
+.featured-content .featured-description {
     color: #6C6C6C;
     font-size: 1rem;
     font-weight: 700;
     margin: 10px 0;
+}
+
+/* footer section */
+.footer {
+    background: #0A0826;
+    height: 250px;
+    padding: 50px 0;
+}
+
+.footer-title {
+    color: #FFF;
+    text-align: center;
+}
+
+.footer-description {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer .icon {
+    color: #D9DBE1;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.footer .icon i {
+    padding: 0 10px;
+    
 }
