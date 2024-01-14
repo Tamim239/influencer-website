@@ -288,3 +288,26 @@ nav a {
 }
 
 /* featured-product-container */
+.featured-product-container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.featured-image img {
+    border-radius: 7px;
+
+}
+
+.featured-title {
+    text-align: left;
+}
+
+ .featured-content .featured-description {
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
