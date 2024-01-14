@@ -1,11 +1,145 @@
 /* shared style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
 :root {
-    --primary-color: #3A3A3A ;   
+    --primary-color: #3A3A3A;
+    --text-gray: #18191F;
+    --background: #FFF;
 }
 
-*{
+.text-title {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+.text-title2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.text-title-box {
+    color: var(--Text-gray);
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* header style */
+header {
+    background-color: var(--background);
+    width: 80%;
+    margin: 20px auto;
+}
+
+nav h3 {
+    color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.influencer-container {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.influencer-title {
+    color: var(--primary-color);
+    font-size: 3.25rem;
+    font-weight: 700;
+
+}
+
+.influencer-description {
+    max-width: 500px;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.influencer-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 41px;
+
+}
+
+.influencer-btn i {
+    font-size: 1.2rem;
+}
+.influencer-colum {
+    position: relative;
+}
+
+.influencer-colum img {
+    padding: 20px;
+    width: 100%;
+}
+
+.influencer-colum .camera img{
+   position: absolute;
+   top: 0;
+}
+
+/* sponsors section */
+.sponsors-container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.logos img {
+    padding-left: 30px;
+}
+
+/* popular collection */
