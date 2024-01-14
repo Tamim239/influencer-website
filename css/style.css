@@ -1,0 +1,11 @@
+/* shared style */
+:root {
+    --primary-color: #3A3A3A ;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
